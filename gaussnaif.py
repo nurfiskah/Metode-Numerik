@@ -27,4 +27,5 @@ for i in range(n-2,-1,-1):
         S=S+A[i,j]*X[j,0]
     X[i,0]=(A[i,n]-S)/A[i,i]
 
-print(X)
+print('X=')
+print (X)
